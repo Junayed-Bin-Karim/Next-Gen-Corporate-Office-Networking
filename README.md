@@ -128,19 +128,21 @@ Switch# show interfaces trunk
 ## Check VLAN Configuration:
 
 Switch# show vlan brief
-Verify DHCP Settings:
+## Verify DHCP Settings:
 
 
 Router# show ip dhcp pool
-Check DHCP Lease Information:
+## Check DHCP Lease Information:
 
 
 Router# show ip dhcp binding
-Check Interface Status:
+
+## Check Interface Status:
 
 
 
 Router# show ip interface brief
+
 ## Conclusion
 This project successfully implements the core components of a next-generation corporate office network by configuring VLANs, trunk ports, inter-VLAN routing, and DHCP services. The configuration ensures proper communication between different VLANs, dynamic IP assignment, and network segmentation for enhanced security and performance.
 
